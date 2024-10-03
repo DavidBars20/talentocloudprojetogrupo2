@@ -18,3 +18,11 @@ Jornada do usuário
 - 3- Home (depois do login)
 - 4- Categorias
 - 5- Reprodução do Filme
+
+Trabalho desenvolvido em Grupo composto por:
+
+* Kaio Nilo
+* Thascilla Rosa
+* Graziellli Moscardin
+* David Barros
+* Marcos Saquinho
