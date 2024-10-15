@@ -17,7 +17,7 @@ Jornada do usuário
 - 1- Home (antes do login)
 - 2- Login
 - 3- Home (depois do login)
-- 4- Categorias
+- 4- Apresentação do Filme
 - 5- Reprodução do Filme
 
 Trabalho desenvolvido em Grupo composto por:
