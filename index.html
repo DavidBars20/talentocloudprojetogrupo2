@@ -22,6 +22,10 @@
     <!--Favicon-->
     <link rel="icon" href="img/favicon.png">
 
+    <!--Normilize-->
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+
+
     <title>Streamflix</title>
 
   </head>
@@ -35,14 +39,14 @@
         <!--NAVEGAÇÃO TOPO-->
         <nav class="navbar navbar-expand-md fixed-top">
 
-            <!--LOGO-->
-             <a class="navbar-brand mr-auto pl-5" href="index.html"> <img src="img/logo.svg" width="100"></a>
+          <!--LOGO-->
+           <a class="navbar-brand mr-auto pl-5" href="index.html"> <img src="img/logo.svg" width="100"></a>
          
                
-            <!--BOTÃO-->
-             <button class="bnt btn-preto ml-auto mr-3">
-                   Entrar
-             </button>
+          <!--BOTÃO-->
+          <button class="bnt btn-preto ml-auto mr-3" type="button">
+            Entrar
+          </button>
         
         </nav> 
         
@@ -66,7 +70,7 @@
                    
                     <h2>Tudo o que você quer ver em um único lugar</h2>
                            
-                    <button class="btn btn-roxo mt-2">Obter Plano Agora</button>
+                    <button class="btn btn-roxo mt-2" type="button">Obter Plano Agora</button>
                    
                   </div>
 
@@ -78,16 +82,33 @@
 
         <!--SEÇÃO PLANOS-->
         <section id="planos">
-            <div class="container align-self-center pt-5">
-                <div class="row">
+            <div class="container">
 
-                    <h1 class="display-4 mt-5"><strong>Escolha um plano que combina melhor com você!</strong></h1>
+              <div>
+                <h1 class="display-4 my-5"><strong>Escolha um plano que combina melhor com você!</strong></h1>
+              </div>
 
-
-
+              <div class="row mb">
+                 
+                <div id="plano1" class="col-lg-4 d-flex">
+                  <button class="btn btn-azul2 mt-auto mb-5 mx-auto btn-lg" type="button">Aderir plano</button>
                 </div>
+
+                <div id="plano2" class="col-lg-4 d-flex">
+                  <button class="btn btn-azul2 mt-auto mb-5 mx-auto btn-lg" type="button">Aderir plano</button>
+                </div>
+                  
+                <div id="plano3" class="col-lg-4 d-flex">
+                  <button class="btn btn-roxo mt-auto mb-5 mx-auto btn-lg" type="button">Aderir plano</button>
+                </div>
+
+                <span class="both"></span>
+
+              </div>
+          
             </div>
         </section>
+
     </main>
 
 
@@ -95,8 +116,47 @@
 
     <!--INÍCIO DO RODAPÉ-->
 
-    <footer>
+    <footer id="rodape" class="d-flex align-items-center">
 
+      <div class="container">
+
+        <div class="row">
+
+          <!--LOGO-->
+          <div class="col-md-4 mb-3">
+            <a class="navbar-brand mx-auto" href="index.html"> <img class="img-" src="img/logo.svg" width="200"></a>
+          </div>
+          
+          <div class="col-md-4">
+            
+            <ul class="navbar-nav">
+                <li><a href="">Perguntas Frequêntes</a></li>
+                <li><a href="">Privacidade</a></li>
+                <li><a href="">Termos de Uso</a></li>
+                <li><a href="">Central de Ajuda</a></li>
+            </ul>
+
+          </div>
+
+          <div class="col-md-4 align-self-center">
+            <a class="btn btn-lg" href="">
+              <i class="fab fa-solid fa-instagram fa-inverse fa-2x"></i>
+            </a>
+            <a class="btn btn-lg" href="">
+              <i class="fab fa-solid fa-facebook fa-inverse fa-2x"></i>
+            </a>
+            <a class="btn btn-lg" href="">
+              <i class="fab fa-solid fa-envelope fa-inverse fa-2x"></i>
+            </a>
+          </div>
+
+
+
+        </div>
+
+        </div>
+
+      </div>
 
 
     </footer>
