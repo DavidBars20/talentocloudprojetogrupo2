@@ -1,7 +1,7 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: roboto;
+    font-family: 'roboto';
 }
 
 
@@ -21,6 +21,12 @@ a:hover {
     background-size: cover;
     height: 600px;
     margin-top: 30px;
+}
+
+#home h2 {
+    font-family: 'gotham black';
+    font-size: 1.9em;
+    margin-bottom: 20px;
 }
 
 .card {
@@ -44,6 +50,7 @@ a:hover {
 }
 
 #planos h1 {
+    font-family: 'gotham black';
     color: #470094;
     font-weight: bold;
     text-transform: uppercase;
@@ -107,6 +114,10 @@ a:hover {
     color: #7B00FF;
 }
 
+#rodape h5 {
+    color: #FEF9FF;
+    font-size: 1em;
+}
 
 
 
