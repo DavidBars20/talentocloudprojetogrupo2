@@ -102,7 +102,7 @@ a:hover {
 #rodape {
     background: #0E0E0E;
     height: 200px;
-    position: relative;
+    position: sticky;
     margin-top: 20px;
 }
 
@@ -224,7 +224,6 @@ a:hover {
     text-transform: uppercase;
     font-weight: bold;
 }
-
 
 
 /*////////   MEDIA QUERIES */
