@@ -25,5 +25,5 @@ Trabalho desenvolvido em Grupo composto por:
 * Kaio Nilo
 * Thascilla Rosa
 * Graziellli Moscardin
-* David Barros
+* David Barroso
 * Marcos Saquinho
