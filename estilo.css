@@ -25,7 +25,7 @@ a:hover {
 }
 
 #home h2 {
-    font-family: 'gotham black';
+    font-family: 'gotham black', sans-serif;
     font-size: 1.9em;
     margin-bottom: 20px;
 }
