@@ -1,17 +1,9 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: 'roboto';
+    font-family: 'roboto', sans-serif;
 }
 
-
-#exemplo {
-    background: red;
-    color: white;
-    border: 1px #0E0E0E solid;
-    margin: 10px 20px 30px 50px;
-    padding:  10px 20px 30px 50px;
-}
 
 a:hover {
     text-decoration: none;
@@ -22,7 +14,7 @@ a:hover {
 }
 
 
-/*////////   SEÇÃO HOME*/
+/*////////   SEÇÃO HOME - INDEX*/
 
 
 #home {
@@ -49,7 +41,7 @@ a:hover {
     font-weight: bold;
 }
 
-/*////////   SEÇAO PLANOS*/
+/*////////   SEÇAO PLANOS - INDEX*/
 
 #planos {
     background: url(img/bg_padrao.png) no-repeat fixed;
