@@ -26,6 +26,7 @@
 
     <!-- Estilo customizado -->
     <link rel="stylesheet" type="text/css" href="estilo.css">
+    <link rel="stylesheet" type="text/css" href="login.css">
 
     <!--Favicon-->
     <link rel="icon" href="img/favicon.ico">
@@ -39,47 +40,96 @@
   </head>
 
   <body>
-    <div align="center">
-      <h1>Faça seu login:</h1>
-      <form>
-          <div>
-              <label for="email">Email</label><br>
-              <input type="email" id="email" name="email" placeholder="Digite seu email" required><br><br>
-          </div>
-          <div>
-              <label for="senha">Senha</label><br>
-              <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required><br><br>
-          </div>
-          <div>
-              <label><input type="checkbox" name="lembrar"> Lembre-se de mim</label>
-              <a href="#" style="margin-left: 30px;">Esqueceu a senha?</a><br><br>
-          </div>
-          <button type="submit">Entrar</button><br><br>
-      </form>
-      <p>Ainda não tenho conta?</p>
-  </div>
+    <header>
 
-  <footer>
-    <div align="center">
-        <h2>STREAMFLIX</h2>
-        <div align="center">
-            <p>
-                <a href="#">PERGUNTAS FREQUENTES</a><br>
-                <a href="#">PRIVACIDADE</a><br>
-                <a href="#">TERMOS DE USO</a><br>
-                <a href="#">CENTRAL DE AJUDA</a>
-            </p>
+        <!--NAVEGAÇÃO TOPO-->
+        <nav id="nav_topo" class="navbar navbar-expand-md fixed-top">
+
+          <!--LOGO-->
+           <a class="navbar-brand mr-auto pl-5" href="index.html"> <img src="img/logo.svg" width="100"></a>
+         
+               
+          <!--BOTÃO-->
+          <button class="bnt btn-preto ml-auto mr-3" type="button">
+            Entrar
+          </button>
+        
+        </nav> 
+        
+    </header>
+    <main>
+        <div class="caixa" align="center">
+            <h1>Faça seu login:</h1>
+            <form>
+                <div>
+                    <label for="email">Email</label><br>
+                    <input type="email" id="email" name="email" placeholder="Digite seu email" required><br><br>
+                </div>
+                <div>
+                    <label for="senha">Senha</label><br>
+                    <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required><br><br>
+                </div>
+                <div>
+                    <label><input type="checkbox" name="lembrar"> Lembre-se de mim</label>
+                    <a href="#" style="margin-left: 30px;">Esqueceu a senha?</a><br><br>
+                </div>
+                <button type="submit">Entrar</button><br><br>
+            </form>
+            <p>Ainda não tenho conta?</p>
         </div>
-        <div>
-            <p>
-                <a href="mailto:contato@streamflix.com">📧</a>
-                <a href="https://instagram.com">Instagram</a> |
-                <a href="https://facebook.com">Facebook</a>
-            </p>
-            <p>SAC 00 000 000 000</p>
+    </main>
+    
+
+    <footer id="rodape" class="d-flex align-items-center">
+
+        <div class="container">
+  
+          <div class="row justify-content-between">
+  
+            <!--LOGO-->
+            <div class="col-lg-4 mb-3">
+              <a class="navbar-brand mx-auto" href="index.html"> <img class="img-" src="img/logo.svg" width="200"></a>
+            </div>
+            
+            <div class="col-lg-4">
+              
+              <ul class="navbar-nav">
+                  <li><a href="">Perguntas Frequêntes</a></li>
+                  <li><a href="">Privacidade</a></li>
+                  <li><a href="">Termos de Uso</a></li>
+                  <li><a href="">Central de Ajuda</a></li>
+              </ul>
+  
+            </div>
+  
+            <div class="col-lg-4">
+              
+              <div>
+                <a class="btn btn-lg" href="">
+                  <i class="fab fa-solid fa-instagram fa-inverse fa-2x"></i>
+                </a>
+                <a class="btn btn-lg" href="">
+                  <i class="fab fa-solid fa-facebook fa-inverse fa-2x"></i>
+                </a>
+                <a class="btn btn-lg" href="">
+                  <i class="fa-regular fa-envelope fa-inverse fa-2x"></i>
+                </a>  
+              </div>
+  
+              <div>
+                <h5 class="lead">SAC 00 000 000 000</h5>
+              </div>
+  
+            </div>
+  
+          </div>
+  
+          </div>
+  
         </div>
-    </div>
-</footer>
+  
+  
+    </footer>
 
    
   </body>
