@@ -14,7 +14,7 @@ a:hover {
 /*////////   BARRA DE NAVEGAÇÃO*/
 
 
-#topo {
+.navbar {
     background: #7B00FF;
 }
 
@@ -78,7 +78,6 @@ a:hover {
     background: url(img/bg_padrao.png) no-repeat fixed;
     background-size: cover;
     background-color: #FEF9FF;
-    height: 1050px;
 }
 
 #planos h1 {
@@ -133,8 +132,6 @@ a:hover {
 
 #rodape {
     background: #0E0E0E;
-    height: 200px;
-    position: sticky;
     margin-top: 20px;
 }
 
