@@ -18,7 +18,24 @@ a:hover {
     background: #7B00FF;
 }
 
+.categorias {
+    background: #0060AF;
+    height: 130px;
+}
 
+
+.categorias li a {
+    color: #FEF9FF;
+    margin-top: 80px;
+
+}
+
+.categorias li a:hover {
+    color: #00335C;
+    font-weight: bold;
+    margin-top: 80px;
+
+}
 
 /*////////   SEÇÃO HOME - INDEX*/
 
