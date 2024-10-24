@@ -1,0 +1,201 @@
+/*////////   GERAL */
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'roboto', sans-serif;
+}
+
+
+a:hover {
+    text-decoration: none;
+}
+
+
+/*////////   BARRA DE NAVEGAÇÃO*/
+
+
+.navbar {
+    background: #7B00FF;
+}
+
+.navbar-collapse {
+    background: #0060AF;
+    height: 130px;
+    text-transform: uppercase;
+}
+
+
+.navbar-collapse li a {
+    color: #FEF9FF;
+    margin-top: 80px;
+}
+
+.navbar-collapse li a:hover {
+    color: #00335C;
+    font-weight: bold;
+    margin-top: 80px;
+
+}
+
+
+/*////////   BOTÕES */
+
+.btn-preto {
+    background: #1e1e1e;
+    border: 2px solid #1e1e1e;
+    border-radius: 5px;
+    padding: 8px 25px;
+    color: #FEF9FF;
+    text-transform: uppercase;
+
+}
+
+.btn-preto:hover {
+    background: #0E0E0E;
+    border: 2px solid #0E0E0E;
+    border-radius: 5px;
+    padding: 8px 25px;
+    color: #FEF9FF;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.btn-preto:active {
+    background: #008CFF;
+    border: 2px solid #006692;
+    border-radius: 5px;
+    padding: 8px 25px;
+    color: #470094;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+.btn-roxo {
+    background: #7B00FF;
+    border: 2px solid #7B00FF;
+    border-radius: 5px;
+    padding: 8px 25px;
+    color: #FEF9FF;
+    text-transform: uppercase;
+    font-weight: bold;    
+}
+
+.btn-roxo:hover {
+    background: #470094;
+    border: 2px solid #470094;
+    border-radius: 5px;
+    padding: 8px 25px;
+    color: #FEF9FF;
+    text-transform: uppercase;
+    font-weight: bold;    
+}
+
+.btn-roxo:active {
+    background: #008CFF;
+    border: 2px solid #008CFF;
+    border-radius: 5px;
+    padding: 8px 25px;
+    color: #00335C;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.btn-azul1 {
+    background: #0060AF;
+    border: 2px solid #006692;
+    border-radius: 5px;
+    padding: 8px 25px;
+    color: #FEF9FF;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.btn-azul1:hover {
+    background: #00335C;
+    border: 2px solid #006692;
+    border-radius: 5px;
+    padding: 8px 25px;
+    color: #FEF9FF;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+.btn-azul2 {
+    background: #008CFF;
+    border: 2px solid #006692;
+    border-radius: 5px;
+    padding: 8px 25px;
+    color: #FEF9FF;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.btn-azul2:hover {
+    background: #006692;
+    border: 2px solid #008CFF;
+    border-radius: 5px;
+    padding: 8px 25px;
+    color: #FEF9FF;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+
+/*////////   RODAPÉ */
+
+#rodape {
+    background: #0E0E0E;
+    margin-top: 20px;
+}
+
+#rodape li a {
+    color: #FEF9FF;
+}
+
+#rodape li a:hover {
+    color: #7B00FF;
+}
+
+#rodape h5 {
+    color: #FEF9FF;
+    font-size: 1em;
+}
+
+
+
+
+
+
+/*////////   MEDIA QUERIES P/ COPIAR */
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+}
+
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+    
+}
+
+ 
