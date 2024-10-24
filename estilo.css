@@ -14,23 +14,23 @@ a:hover {
 /*////////   BARRA DE NAVEGAÇÃO*/
 
 
-.navbar {
+#nav_topo {
     background: #7B00FF;
 }
 
-.categorias {
+.navbar-collapse {
     background: #0060AF;
     height: 130px;
+    text-transform: uppercase;
 }
 
 
-.categorias li a {
+.navbar-collapse li a {
     color: #FEF9FF;
     margin-top: 80px;
-
 }
 
-.categorias li a:hover {
+.navbar-collapse li a:hover {
     color: #00335C;
     font-weight: bold;
     margin-top: 80px;

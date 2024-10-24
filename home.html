@@ -43,7 +43,7 @@
     <header>
 
       <!--NAVEGAÇÃO TOPO-->
-      <nav class="navbar navbar-expand-md fixed-top">
+      <nav id="nav_topo" class="navbar navbar-expand-md fixed-top">
 
         <!--LOGO-->
         <a class="navbar-brand mr-auto pl-5" href="index.html"> <img src="img/logo.svg" width="100"></a>
@@ -53,40 +53,64 @@
         <button class="bnt btn-preto ml-auto mr-3" type="button">
           Entrar
         </button>
+
+
+        <!--CATEGORIAS--> 
+        <div id="categorias" class="collapse navbar-collapse">
+
+        <ul class="navbar-nav justify-content-around">
         
-      </nav> 
-     
-      <!--NAVEGAÇÃO CATEGORIAS-->
-       
-      <div class="categorias">
-        <ul class="nav justify-content-around">
           <li class="nav-item">
             <a class="nav-link" href="">Ação</a>
           </li>
+        
           <li class="nav-item">
             <a class="nav-link" href="">Aventura</a>
           </li>
+        
           <li class="nav-item">
             <a class="nav-link" href="">Comédia</a>
           </li>
+        
           <li class="nav-item">
             <a class="nav-link" href="">Documentário</a>
           </li>
+        
           <li class="nav-item">
             <a class="nav-link" href="">Drama</a>
           </li>
+        
           <li class="nav-item">
             <a class="nav-link" href="">Família</a>
           </li>
+        
+          <li class="nav-item">
+            <a class="nav-link" href="">Fantasia</a>
+          </li>
+        
           <li class="nav-item">
             <a class="nav-link" href="">Romance</a>
           </li>
+        
           <li class="nav-item">
             <a class="nav-link" href="">Mais</a>
           </li>
+        
         </ul>
 
-      </div>
+        </div>
+
+        <!--BOTÃO COLLAPSE-->
+        <button class="mr-2 navbar-toggler" data-toggle="collapse" data-target="#categorias">
+          <i class="fas fa-bars fa-inverse"></i>
+        </button>   
+        
+      </nav> 
+     
+ 
+
+
+      
       
   </header>
     
