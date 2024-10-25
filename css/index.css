@@ -41,7 +41,7 @@ a:hover {
 
 
 #home {
-    background: url(img/bg\ home.png) no-repeat fixed;
+    background: url(../img/bg\ home.png) no-repeat fixed;
     background-size: cover;
     height: 600px;
     margin-top: 30px;
@@ -75,7 +75,7 @@ a:hover {
 /*////////   SEÇAO PLANOS - INDEX*/
 
 #planos {
-    background: url(img/bg_padrao.png) no-repeat fixed;
+    background: url(../img/bg_padrao.png) no-repeat fixed;
     background-size: cover;
     background-color: #FEF9FF;
 }
@@ -91,7 +91,7 @@ a:hover {
 #plano1{
     height: 850px;
     width: 300px;
-    background: url(img/bg_plano1.png);
+    background: url(../img/bg_plano1.png);
     background-size: cover;
     border-radius: 10px;
 }
@@ -104,7 +104,7 @@ a:hover {
 #plano2{
     height: 850px;
     width: 350px;
-    background: url(img/bg_plano2.png);
+    background: url(../img/bg_plano2.png);
     background-size: cover;
     border-radius: 10px;
 }
@@ -117,7 +117,7 @@ a:hover {
 #plano3{
     height: 850px;
     width: 350px;
-    background: url(img/bg_plano3.png);
+    background: url(../img/bg_plano3.png);
     background-size: cover;
     border-radius: 10px;
 }
@@ -132,7 +132,8 @@ a:hover {
 
 #rodape {
     background: #0E0E0E;
-    margin-top: 20px;
+    margin-top: 30px;
+    padding: 50px 0;
 }
 
 #rodape li a {
