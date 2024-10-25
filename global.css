@@ -11,10 +11,11 @@ a:hover {
     text-decoration: none;
 }
 
+
 /*////////   BARRA DE NAVEGAÇÃO*/
 
 
-#nav_topo {
+.navbar {
     background: #7B00FF;
 }
 
@@ -36,121 +37,6 @@ a:hover {
     margin-top: 80px;
 
 }
-
-/*////////   SEÇÃO HOME - INDEX*/
-
-
-#home {
-    background: url(img/bg\ home.png) no-repeat fixed;
-    background-size: cover;
-    height: 600px;
-    margin-top: 30px;
-}
-
-#home h2 {
-    font-family: 'gotham black', sans-serif;
-    font-size: 1.9em;
-    margin-bottom: 20px;
-}
-
-.card {
-    background: #1e1e1e;
-    color: #FEF9FF;
-    width: 300px;
-    height: 300px;
-    text-transform: uppercase;
-    padding: 20px 20px;
-    font-style: italic;
-    font-weight: bold;
-}
-
-@media (min-width: 500px) and (max-width: 991.98px) { 
-    .card {
-        margin: auto;
-    }
-}
-
-
-
-/*////////   SEÇAO PLANOS - INDEX*/
-
-#planos {
-    background: url(img/bg_padrao.png) no-repeat fixed;
-    background-size: cover;
-    background-color: #FEF9FF;
-    height: 1050px;
-}
-
-#planos h1 {
-    font-family: 'gotham black';
-    color: #470094;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-align: center;
-}
-
-#plano1{
-    height: 850px;
-    width: 300px;
-    background: url(img/bg_plano1.png);
-    background-size: cover;
-    border-radius: 10px;
-}
-
-#plano1 button {
-    width: 280px;
-    height: 80px;
-}
-
-#plano2{
-    height: 850px;
-    width: 350px;
-    background: url(img/bg_plano2.png);
-    background-size: cover;
-    border-radius: 10px;
-}
-
-#plano2 button {
-    width: 280px;
-    height: 80px;
-}
-
-#plano3{
-    height: 850px;
-    width: 350px;
-    background: url(img/bg_plano3.png);
-    background-size: cover;
-    border-radius: 10px;
-}
-
-#plano3 button {
-    width: 280px;
-    height: 80px;
-}
-
-
-/*////////   RODAPÉ */
-
-#rodape {
-    background: #0E0E0E;
-    height: 200px;
-    position: sticky;
-    margin-top: 20px;
-}
-
-#rodape li a {
-    color: #FEF9FF;
-}
-
-#rodape li a:hover {
-    color: #7B00FF;
-}
-
-#rodape h5 {
-    color: #FEF9FF;
-    font-size: 1em;
-}
-
 
 
 /*////////   BOTÕES */
@@ -256,6 +142,29 @@ a:hover {
     text-transform: uppercase;
     font-weight: bold;
 }
+
+
+
+/*////////   RODAPÉ */
+
+#rodape {
+    background: #0E0E0E;
+    margin-top: 20px;
+}
+
+#rodape li a {
+    color: #FEF9FF;
+}
+
+#rodape li a:hover {
+    color: #7B00FF;
+}
+
+#rodape h5 {
+    color: #FEF9FF;
+    font-size: 1em;
+}
+
 
 
 
