@@ -1,6 +1,17 @@
 .caixa{
-    background-color: black;
+    background-color: #1e1e1e;
+    height: 400px;
+    width: 400px;
+    justify-content: center;
+    text-align: center;
+    margin: 80px auto;
+    color: #fef9ff;
 }
 .butao_entrar{
-    background-color: blueviolet;
+    background-color: #7b00ff;
+}
+#fundo{
+    background: url(/img/bg\ home.png) no-repeat fixed;
+    background-size: cover;
+   
 }
